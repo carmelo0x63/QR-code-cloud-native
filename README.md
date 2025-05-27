@@ -25,7 +25,7 @@ The final outcome is a ~15MB image that can be downloaded and run without going 
 - Docker
 
 ### Quick(er) start
-1. run `docker run -d -p 80:80 carmelo0x63/justaqrcode:1.0`
+1. run `docker run -d --rm -p 80:80 carmelo0x63/justaqrcode:1.0`
 
 ### Build it from scratch
 1. clone repo: `git clone https://github.com/carmelo0x63/QR-code-cloud-native`
