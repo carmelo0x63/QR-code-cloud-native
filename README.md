@@ -32,4 +32,4 @@ The final outcome is a ~15MB image that can be downloaded and run without going 
 2. edit/explore the source code (optional but recommended)
 3. build your own image: `docker buildx build -t <repo_name>/<image_name>:<tag> .`
 4. spin it up: `docker run -d --rm -p 80:80 --name <container_name> <repo_name>/<image_name>:<tag>`
-5. you own QR code generator is available at `http://localhost/`
+5. you own QR code generator is available at `http://localhost/qrcode.html`
